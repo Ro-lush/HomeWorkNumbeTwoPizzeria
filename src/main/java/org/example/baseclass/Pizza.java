@@ -3,17 +3,12 @@ package org.example.baseclass;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public abstract class Pizza {
     protected String name;
     protected Size size;
     protected double basePrice;
     protected List<String> ingredients;
     protected List<String> extras = new ArrayList<>();
-
-    public enum Size {
-
-
 
     public Pizza(Size size) {
         this.size = size;
