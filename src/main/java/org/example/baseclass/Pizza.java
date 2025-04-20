@@ -11,11 +11,9 @@ public abstract class Pizza {
     protected List<String> ingredients;
     protected List<String> extras = new ArrayList<>();
 
-   /* //список размеров пиццы
     public enum Size {
 
 
-    }*/
 
     public Pizza(Size size) {
         this.size = size;
