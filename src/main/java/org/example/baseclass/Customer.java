@@ -1,5 +1,8 @@
 package org.example.baseclass;
 
+/**
+ * Класс для клиента
+ */
 public class Customer {
     private final String name;
 

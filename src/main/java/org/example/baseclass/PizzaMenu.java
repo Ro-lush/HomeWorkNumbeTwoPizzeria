@@ -16,6 +16,9 @@ public class PizzaMenu {
 
     }
 
+    /**
+     * Метод для вывода меню
+     */
     public void displayMenu() {
         System.out.println("\nМеню пиццерии:");
         for (Pizza pizza : availablePizzas) {
@@ -24,6 +27,13 @@ public class PizzaMenu {
         System.out.println("Добавки: двойной сыр (+50р.), грибы (+50р.), оливки (+50р.)");
     }
 
+    /**
+     * Метод для создания пиццы
+     * @param name - наименование
+     * @param size - размер
+     * @param extras - добавки
+     * @return
+     */
     public Pizza createPizza(String name, Size size, List<String> extras) {
         Pizza pizza = null;
 
