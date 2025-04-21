@@ -32,10 +32,10 @@ public class PizzaMenu {
      * @param name - наименование
      * @param size - размер
      * @param extras - добавки
-     * @return
+     * @return - возвращает Pizza
      */
     public Pizza createPizza(String name, Size size, List<String> extras) {
-        Pizza pizza = null;
+        Pizza pizza;
 
         switch (name.toLowerCase()) {
             case "маргарита":

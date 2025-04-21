@@ -57,4 +57,12 @@ public class Order {
                 String.join(", ", pizzas.stream().map(Pizza::getName).collect(Collectors.toList())),
                 calculateTotal());
     }
+
+    public boolean isConfirmed() {
+        return confirmed;
+    }
+
+    public void setConfirmed(boolean confirmed) {
+        this.confirmed = confirmed;
+    }
 }
